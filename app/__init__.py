@@ -10,7 +10,7 @@ def error_404(e):
 
 @app.route('/')
 def index():
-    return '<h1>Test app</h1>'
+    return '<h1>Привет, Лариса!</h1>'
 @app.route('/sayname')
 def sayname():
     return '<h1>Hello Flask</h1>'
